@@ -31,6 +31,7 @@ import {
   IconButton,
   Center,
 } from "@chakra-ui/react";
+import ButtonLayout from "./ButtonLayout";
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [placement, setPlacement] = React.useState("right");
@@ -140,15 +141,7 @@ const Header = () => {
             </MenuList>
           </Menu>
         </Flex>
-        <Button
-          display={{ lg: "flex", base: "none" }}
-          bg={"#0083FF;"}
-          color={"white"}
-          _hover={{ bg: "#0083FF" }}
-          rightIcon={<ArrowForwardIcon />}
-        >
-          Let,s Talk
-        </Button>
+        <ButtonLayout buttonText="Let’s Talk" />
 
         <IconButton
           display={{ lg: "none", base: "inline-block" }}

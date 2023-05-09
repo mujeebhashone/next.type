@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import { Outfit } from 'next/font/google'
 import Header from './Components/Header'
+import Banner from './Components/Banner'
 
-const inter = Outfit({ subsets: ['latin'] })
+const inter= Outfit({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
+      <Banner/>
     </>
   )
 }
