@@ -3,6 +3,7 @@ import { Outfit } from 'next/font/google'
 import Header from './Components/Header'
 import Banner from './Components/Banner'
 import Section from './Components/Section'
+import BoxSection from './Components/BoxSection'
 
 const inter= Outfit({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Header/>
       <Banner/>
       <Section/>
+      <BoxSection/>
     </>
   )
 }

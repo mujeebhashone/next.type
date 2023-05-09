@@ -45,9 +45,9 @@ const Banner = () => {
           </Box>
           <Flex justify={"center"} align={"center"} gap={"4"} mt={"10"}>
             <ButtonLayout buttonText="content creators" />
-            <ButtonLayout buttonText="On-Air Talents" />
+            <ButtonLayout isTransparent={true} buttonText="On-Air Talents" />
           </Flex>
-          <Box textAlign={"center"} mx={"auto"} mt={'40'}>
+          <Box textAlign={"center"} mx={"auto"} mt={{lg:'40', base:'10'}}>
             <Image
               src="/assets/images/mouse.png"
               width={70}

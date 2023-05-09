@@ -141,7 +141,10 @@ const Header = () => {
             </MenuList>
           </Menu>
         </Flex>
-        <ButtonLayout buttonText="Let’s Talk" />
+        <Box display={{base: 'none', lg: 'block'}}>
+
+        <ButtonLayout  buttonText="Let’s Talk" />
+        </Box>
 
         <IconButton
           display={{ lg: "none", base: "inline-block" }}
