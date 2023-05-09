@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Outfit } from 'next/font/google'
 import Header from './Components/Header'
 import Banner from './Components/Banner'
+import Section from './Components/Section'
 
 const inter= Outfit({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <Header/>
       <Banner/>
+      <Section/>
     </>
   )
 }
