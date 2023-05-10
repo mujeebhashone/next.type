@@ -5,7 +5,7 @@ import Image from "next/image";
 const BoxSection2 = () => {
   return (
         <Box as='section' bg={'#F5F5F5'}>
-            <Container  maxW={'80%'}  py={{lg:'24', base:'0'}} marginX={'auto'}>
+            <Container  maxW={{lg:'80%',base:'100%'}}  py={{lg:'24', base:'20'}} marginX={'auto'}>
             <Box textAlign={'center'} mb={'12'}>
         <Box as='span' color={'#0083FF'} bg={'#E6F3FF'} px={'4'} py={'2.5'} >-Our Rosters-
         </Box>
@@ -13,8 +13,8 @@ const BoxSection2 = () => {
         <Text color={'#6E7CA0'}> We do manage an exclusive roster of talent, from content creadtors and social media influencers to 
 Esports commentators, and even hosts.  We work with a plethora of great talents. </Text>
 
-      </Box>
-      <SimpleGrid columns={{base: 1, lg: 2}} spacing={3}>
+      </Box >
+      <SimpleGrid columns={{base: 1, lg: 2}} spacing={3} >
         <Flex border={'1px solid #E7E5EA'} bg={'#FFFFFF'} >
             <Box mt={'-6'} ml={'-3'}>
             <Image

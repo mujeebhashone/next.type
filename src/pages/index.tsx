@@ -5,6 +5,7 @@ import Banner from './Components/Banner'
 import Section from './Components/Section'
 import BoxSection from './Components/BoxSection'
 import BoxSection2 from './Components/BoxSection2'
+import VideoSection from './Components/VideoSection'
 
 const inter= Outfit({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Section/>
       <BoxSection/>
       <BoxSection2/>
+      <VideoSection/>
     </>
   )
 }

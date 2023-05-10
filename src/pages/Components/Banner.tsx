@@ -43,7 +43,7 @@ const Banner = () => {
               media influencers.
             </Text>
           </Box>
-          <Flex justify={"center"} align={"center"} gap={"4"} mt={"10"}>
+      <Flex justify={"center"} align={"center"} gap={"4"} mt={"10"} flexDirection={{lg: "row", base:"column"}}>
             <ButtonLayout buttonText="content creators" />
             <ButtonLayout isTransparent={true} buttonText="On-Air Talents" />
           </Flex>
