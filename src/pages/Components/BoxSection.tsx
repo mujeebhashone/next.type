@@ -11,7 +11,7 @@ const BoxSection = () => {
         <Box as='span' color={'#0083FF'} bg={'#E6F3FF'} px={'4'} py={'2.5'} >-What We Do-
         </Box>
         <Heading mb={'3'} mt={'3'}>We’re Offering Diverse Influencer Services</Heading>
-        <Text>Arabia Talents is an agency that offers 360° marketing and operation services to brands seeking to increase their presence in the Arab world. </Text>
+        <Text color={'#6E7CA0'}>Arabia Talents is an agency that offers 360° marketing and operation services to brands seeking to increase their presence in the Arab world. </Text>
 
       </Box>
      

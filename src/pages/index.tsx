@@ -4,6 +4,7 @@ import Header from './Components/Header'
 import Banner from './Components/Banner'
 import Section from './Components/Section'
 import BoxSection from './Components/BoxSection'
+import BoxSection2 from './Components/BoxSection2'
 
 const inter= Outfit({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Banner/>
       <Section/>
       <BoxSection/>
+      <BoxSection2/>
     </>
   )
 }
