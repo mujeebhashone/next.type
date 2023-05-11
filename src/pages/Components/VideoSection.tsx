@@ -24,7 +24,7 @@ const VideoSection = () => {
               
             />
           </Box>
-          <SimpleGrid columns={{base: 2, lg: 4}} spacing={3} color={'#FFFFFF'} textAlign={'center'} alignContent={'end'} height={'100%'}>
+          <SimpleGrid columns={{base: 2, lg: 4}} spacing={3} color={'#FFFFFF'} textAlign={'center'} alignContent={'end'} height={'100%'} p={'6'}>
             <Box>
               <Heading fontSize={{lg:'3xl',base:'2xl'}} fontWeight={'semibold'} mb={{lg:'4',base:'2'}}>
                 450+
