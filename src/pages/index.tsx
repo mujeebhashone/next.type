@@ -9,6 +9,7 @@ import VideoSection from './Components/VideoSection'
 import SocialSection from './Components/SocialSection'
 import SliderSection from './Components/SliderSection'
 import GridSection from './Components/GridSection'
+import BrandSection from './Components/BrandSection'
 
 const inter= Outfit({ subsets: ['latin'] })
 
@@ -30,6 +31,7 @@ export default function Home() {
       <SocialSection/>
       <SliderSection/>
       <GridSection/>
+      <BrandSection/>
     </>
   )
 }
