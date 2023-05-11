@@ -17,12 +17,12 @@ const Section = () => {
       <Box width={{base:'100%', lg:'40%'}} mb={'5'}>
         <Box as="span" color={'#E9004F'} fontSize={'medium'} bg={'#FDE6EE'} px={'4'} py={'2.5'} mb={''}>-About Our Company-</Box>
         <Heading fontSize={'4xl'} mb={'5'} mt={'5'}>
-          MENA's Leading ROI-focused Influencer Marketing Agency.
+         Leading ROI-focused Influencer Marketing Agency.
         </Heading>
         <Text color={'#6E7CA0'} mb={'5'}>
           Our group of marketing experts will guide your company with clear
           direction and actionable steps to achieve its goals and boost your
-          business's growth in the region. 
+         growth in the region. 
           <Text mb={'5'}>
           This is made possible by identifying
           KPIs, goals, and other requirements that might have slipped under your
